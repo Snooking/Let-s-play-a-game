@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./information.component.scss']
 })
 export class InformationComponent implements OnInit {
-  private Snooking = require("./Snooking_L.jpg");
+  private Snooking = "./Snooking_L.jpg";
   constructor() { }
 
   ngOnInit() {

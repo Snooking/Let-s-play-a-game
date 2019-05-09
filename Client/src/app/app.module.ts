@@ -11,6 +11,7 @@ import { ContributionPointsComponent } from './Character/Components/contribution
 import { StatsComponent } from './Character/Components/stats/stats.component';
 import { HistoryComponent } from './Character/Components/history/history.component';
 import { HealthBarsComponent } from './Character/Components/health-bars/health-bars.component';
+import { QuestsComponent } from './Quests/quests/quests.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { HealthBarsComponent } from './Character/Components/health-bars/health-b
     ContributionPointsComponent,
     StatsComponent,
     HistoryComponent,
-    HealthBarsComponent
+    HealthBarsComponent,
+    QuestsComponent
   ],
   imports: [
     BrowserModule,
