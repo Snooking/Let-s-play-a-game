@@ -12,6 +12,7 @@ import { StatsComponent } from './Character/Components/stats/stats.component';
 import { HistoryComponent } from './Character/Components/history/history.component';
 import { HealthBarsComponent } from './Character/Components/health-bars/health-bars.component';
 import { QuestsComponent } from './Quests/quests/quests.component';
+import { AddQuestComponent } from './Quests/Components/add-quest/add-quest.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { QuestsComponent } from './Quests/quests/quests.component';
     StatsComponent,
     HistoryComponent,
     HealthBarsComponent,
-    QuestsComponent
+    QuestsComponent,
+    AddQuestComponent
   ],
   imports: [
     BrowserModule,
